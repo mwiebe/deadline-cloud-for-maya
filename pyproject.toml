@@ -41,8 +41,6 @@ Changelog = "https://github.com/aws-deadline/deadline-cloud-for-maya/blob/releas
 
 [project.scripts]
 maya-openjd = "deadline.maya_adaptor.MayaAdaptor:main"
-# The binary name 'MayaAdaptor' is deprecated.
-MayaAdaptor = "deadline.maya_adaptor.MayaAdaptor:main"
 
 [tool.hatch.build]
 artifacts = [

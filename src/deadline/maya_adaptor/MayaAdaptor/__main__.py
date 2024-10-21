@@ -12,7 +12,7 @@ _logger = logging.getLogger(__name__)
 
 
 def main(reentry_exe=None):
-    _logger.info("About to start the MayaAdaptor")
+    _logger.info("About to start the Maya client interface for Open Job Description")
 
     package_name = vars(sys.modules[__name__])["__package__"]
     if not package_name:
@@ -24,7 +24,7 @@ def main(reentry_exe=None):
         _logger.error(f"Entrypoint failed: {e}")
         return 1
 
-    _logger.info("Done MayaAdaptor main")
+    _logger.info("Done Maya client interface main")
     return 0
 
 
