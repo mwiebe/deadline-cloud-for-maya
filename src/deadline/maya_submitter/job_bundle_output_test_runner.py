@@ -16,7 +16,7 @@ from pathlib import Path
 from datetime import datetime, timezone
 
 import maya.cmds
-from PySide2.QtWidgets import (  # pylint: disable=import-error; type: ignore
+from qtpy.QtWidgets import (  # type: ignore
     QApplication,
     QFileDialog,
     QMessageBox,
@@ -136,7 +136,6 @@ def run_maya_render_submitter_job_bundle_output_test():
         gui_error_handler("Error running job bundle output test", mainwin),
         _consistent_machine_settings(),
     ):
-
         default_tests_dir = Path(__file__).parent
         while (
             len(default_tests_dir.parts) > 1
