@@ -12,7 +12,6 @@ mock_modules = [
     "maya.app.renderSetup.model.renderSetupPreferences",
     "maya.app.general.fileTexturePathResolver",
     "maya.app.general.mayaMixin",
-    "maya.OpenMaya",
     "maya.cmds",
     "maya.utils",
     "PySide2",

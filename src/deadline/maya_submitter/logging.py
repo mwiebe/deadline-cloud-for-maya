@@ -11,7 +11,7 @@ import os
 import tempfile
 from typing import Any
 
-import maya.OpenMaya as om  # type: ignore # pylint: disable=import-error
+import maya.api.OpenMaya as om  # type: ignore # pylint: disable=import-error
 
 DEBUG = logging.DEBUG
 INFO = logging.INFO
